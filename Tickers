@@ -1,0 +1,12 @@
+contener = ["APL", "D-FG", "DFG", "RTY", "ADO-P"]
+
+box = []
+a = "-"
+
+for i in contener:
+    if len(i) > 3:
+        if i[3] == "-":
+            continue
+    box.append(i)
+    
+print(box)
